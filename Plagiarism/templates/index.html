@@ -1,0 +1,11 @@
+{% extends 'base.html' %}
+
+{% block content %}
+<div class='message'>
+    <h1> Plagiarism percentage is: </h1>
+    <h1> {{ plagiarism_percent }} % </h1>
+    <br>
+    <h1 style="color: {{ color }}"> {{ plagiarism_message }} </h1>
+</div>
+
+{% endblock %}
